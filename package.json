@@ -1,0 +1,19 @@
+{
+    "name": "@vervocity/eslint-config",
+    "version": "1.0.0",
+    "description": "Vervocity JS Standard",
+    "main": "index.js",
+    "scripts": {
+        "test": "npm run lint"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/vervocity/eslint-config.git"
+    },
+    "author": "Brandon Bloodgood",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/vervocity/eslint-config/issues"
+    },
+    "homepage": "https://github.com/vervocity/eslint-config#readme"
+}
