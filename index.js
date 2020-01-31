@@ -1,3 +1,3 @@
-module.exports = {
-    extends: 'standard',
-}
+module.exports = require('./eslintrc.json')
+
+
