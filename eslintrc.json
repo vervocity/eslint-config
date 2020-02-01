@@ -1,14 +1,20 @@
 {
     "extends": [
         "plugin:vue/recommended",
+        "plugin:react/recommended",
         "standard"
     ],
+    "parserOptions": {
+        "parser": "babel-eslint"
+    },
     "plugins": [
         "html"
     ],
     "rules": {
         "comma-dangle": "off",
         "indent": ["error", 4],
-        "vue/html-indent": ["error", 4]
+        "vue/html-indent": ["error", 4],
+        "quote-props": ["error", "consistent-as-needed"],
+        "react/prop-types": ["warn", { "skipUndeclared": true }]
     }
 }
