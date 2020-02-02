@@ -14,3 +14,28 @@ Create `.eslintrc.json` file.
 ```sh
 npx eslint resources/js
 ```
+
+## React & React Native projects
+
+
+```sh
+npm install eslint-plugin-react --save-dev
+```
+
+.eslintrc.json
+
+```json
+{
+    "extends": [
+        "plugin:react/recommended",
+        "@vervocity"
+    ],
+    "parserOptions": {
+        "parser": "babel-eslint"
+    },
+    "rules": {
+        "react/prop-types": ["warn", { "skipUndeclared": true }]
+    }
+}
+
+```
