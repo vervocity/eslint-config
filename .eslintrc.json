@@ -1,5 +1,6 @@
 {
     "extends": [
+        "eslint:recommended",
         "plugin:vue/recommended",
         "standard"
     ],
@@ -9,7 +10,8 @@
     "rules": {
         "comma-dangle": "off",
         "indent": ["error", 4],
-        "vue/html-indent": ["error", 4],
-        "quote-props": ["error", "consistent-as-needed"]
+        "no-console": 1,
+        "quote-props": ["error", "consistent-as-needed"],
+        "vue/html-indent": ["error", 4]
     }
 }
