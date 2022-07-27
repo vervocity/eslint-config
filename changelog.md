@@ -1,5 +1,8 @@
 # Change Log
 
+## v2.0.2
+- 🐛 Fixed npm version number.
+
 ## v2.0.1
 - 🐛 Fixed issue finding vue/html-indent rule.
 
