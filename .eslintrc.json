@@ -4,7 +4,7 @@
         "standard"
     ],
     "plugins": [
-        "html"
+        "vue"
     ],
     "rules": {
         "comma-dangle": "off",
