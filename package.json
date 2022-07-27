@@ -1,6 +1,6 @@
 {
     "name": "@vervocity/eslint-config",
-    "version": "2.0.0",
+    "version": "2.0.2",
     "description": "Vervocity JS Standard",
     "main": "index.js",
     "scripts": {
