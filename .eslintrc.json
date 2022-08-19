@@ -3,9 +3,6 @@
         "eslint:recommended",
         "standard"
     ],
-    "plugins": [
-        "vue"
-    ],
     "rules": {
         "comma-dangle": "off",
         "indent": ["error", 4],

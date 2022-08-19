@@ -1,5 +1,8 @@
 # Change Log
 
+## v2.0.3
+- ⬆️ Bumped eslint versions.
+
 ## v2.0.2
 - 🐛 Fixed npm version number.
 
