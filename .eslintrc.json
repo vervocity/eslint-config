@@ -7,6 +7,6 @@
         "comma-dangle": "off",
         "indent": ["error", 4],
         "no-console": 1,
-        "quote-props": ["error", "consistent-as-needed"],
+        "quote-props": ["error", "consistent-as-needed"]
     }
 }
