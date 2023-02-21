@@ -1,5 +1,8 @@
 # Change Log
 
+## v2.1.1 - 2023-01-01
+- 🐛 Fixed invalid json file.
+
 ## v2.1.0 - 2023-02-21
 - 🗑 Removed `vue/html-indent` from default rules list.
 
