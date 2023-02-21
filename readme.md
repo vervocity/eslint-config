@@ -1,7 +1,7 @@
 # Vervocity JS Coding Standard
 
 ```sh
-npm i @vervocity/eslint-config
+npm i --save-dev @vervocity/eslint-config
 ```
 
 Create `.eslintrc.js` file.
@@ -11,7 +11,7 @@ module.exports = {
         '@vervocity',
         // 'plugin:vue/vue3-recommended' // Vue 3.x
         // 'plugin:vue/recommended' // Vue 2.x
-    ]
+    ],
 }
 ```
 
@@ -19,27 +19,33 @@ module.exports = {
 npx eslint "resources/js/**/*.{js,vue}"
 ```
 
-## React & React Native projects
+## Vue projects
 
-
-```sh
-npm install eslint-plugin-react --save-dev
+Add `vue/html-indent` rule eslint configuration file.
+```js
+module.exports = {
+    'extends': [
+        '@vervocity',
+        // 'plugin:vue/vue3-recommended' // Vue 3.x
+        // 'plugin:vue/recommended' // Vue 2.x
+    ],
+    'rules': {
+        'vue/html-indent': [`error`, 4],
+    },
+}
 ```
 
-.eslintrc.json
 
-```json
-{
-    "extends": [
-        "plugin:react/recommended",
-        "@vervocity"
+## React & React Native projects
+
+```js
+module.exports = {
+    'extends': [
+        "@vervocity",
+        "plugin:react/recommended"
     ],
-    "parserOptions": {
-        "parser": "babel-eslint"
-    },
     "rules": {
-        "react/prop-types": ["warn", { "skipUndeclared": true }]
-    }
+        "react/prop-types": ["warn", { "skipUndeclared": true }],
+    },
 }
-
 ```

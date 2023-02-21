@@ -1,6 +1,6 @@
 {
     "name": "@vervocity/eslint-config",
-    "version": "2.0.3",
+    "version": "2.1.0",
     "description": "Vervocity JS Standard",
     "main": "index.js",
     "scripts": {
@@ -19,6 +19,7 @@
     "dependencies": {
         "eslint": "^8.22.0",
         "eslint-config-standard": "^17.0.0",
+        "eslint-plugin-react": "^7.32.2",
         "eslint-plugin-vue": "^9.3.0"
     }
 }
