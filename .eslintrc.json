@@ -8,6 +8,5 @@
         "indent": ["error", 4],
         "no-console": 1,
         "quote-props": ["error", "consistent-as-needed"],
-        "vue/html-indent": ["error", 4]
     }
 }
