@@ -46,6 +46,7 @@ module.exports = {
     ],
     "rules": {
         "react/prop-types": ["warn", { "skipUndeclared": true }],
+        "no-console": "off"
     },
 }
 ```
