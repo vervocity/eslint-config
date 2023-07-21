@@ -2,6 +2,9 @@
 
 ## UNRELEASED
 
+## v2.1.3 - 2023-07-21
+- 🔖 Updated version in package.json file
+
 ## v2.1.2 - 2023-07-21
 - ✨ Updated to allow single empty line at start of files.
 
