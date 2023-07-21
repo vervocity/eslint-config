@@ -1,6 +1,8 @@
 # Change Log
 
 ## UNRELEASED
+
+## v2.1.2 - 2023-07-21
 - ✨ Updated to allow single empty line at start of files.
 
 ## v2.1.1 - 2023-01-01
