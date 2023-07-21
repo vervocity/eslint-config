@@ -1,5 +1,8 @@
 # Change Log
 
+## UNRELEASED
+- ✨ Updated to allow single empty line at start of files.
+
 ## v2.1.1 - 2023-01-01
 - 🐛 Fixed invalid json file.
 
