@@ -7,6 +7,7 @@
         "comma-dangle": "off",
         "indent": ["error", 4],
         "no-console": 1,
-        "quote-props": ["error", "consistent-as-needed"]
+        "quote-props": ["error", "consistent-as-needed"],
+        "no-multiple-empty-lines": ["error", { "max": 1, "maxBOF": 1, "maxEOF": 0 }]
     }
 }
