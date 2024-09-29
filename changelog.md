@@ -1,6 +1,7 @@
 # Change Log
 
 ## UNRELEASED
+- 🐛 Added missing `eslint-formatter-checkstyle` package.
 
 ## v3.0.0 - 2024-09-29
 - ✨ Updated to use eslint v9.
