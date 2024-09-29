@@ -1,6 +1,6 @@
 {
     "name": "@vervocity/eslint-config",
-    "version": "2.1.3",
+    "version": "3.0.0",
     "description": "Vervocity ESLint & Prettier config",
     "type": "module",
     "main": "index.js",
