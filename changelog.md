@@ -1,6 +1,7 @@
 # Change Log
 
 ## UNRELEASED
+- ✨ Updated to use eslint v9.
 
 ## v2.1.3 - 2023-07-21
 - 🔖 Updated version in package.json file
