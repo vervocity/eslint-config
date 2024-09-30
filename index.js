@@ -13,6 +13,13 @@ const eslintBase = [
     },
 ]
 
+const vuePostPrettier = {
+    rules: {
+        'vue/multi-word-component-names': 'off',
+        'vue/html-self-closing': ['error', { html: { void: 'any' } }],
+    },
+}
+
 export const eslint = {
     base: eslintBase,
     standard: [...eslintBase, eslintConfigPrettier],
@@ -20,23 +27,13 @@ export const eslint = {
         ...eslintBase,
         ...eslintPluginVue.configs['flat/recommended'],
         eslintConfigPrettier, // Remove stylistic eslint rules
-        {
-            rules: {
-                'vue/multi-word-component-names': 'off',
-                'vue/html-self-closing': ['error', { html: { void: 'any' } }],
-            },
-        },
+        vuePostPrettier,
     ],
     vue2: [
         ...eslintBase,
         ...eslintPluginVue.configs['flat/vue2-recommended'],
         eslintConfigPrettier, // Remove stylistic eslint rules
-        {
-            rules: {
-                'vue/multi-word-component-names': 'off',
-                'vue/html-self-closing': ['error', { html: { void: 'any' } }],
-            },
-        },
+        vuePostPrettier,
     ],
 }
 
