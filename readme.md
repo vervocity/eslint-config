@@ -14,7 +14,6 @@ Create `eslint.config.mjs` file.
 ```js
 import { eslint } from '@vervocity/eslint-config'
 
-// Available standards eslint.standard, eslint.vue2, or eslint.vue3
 export default eslint.standard
 ```
 

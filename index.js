@@ -4,21 +4,20 @@ import eslintPluginVue from 'eslint-plugin-vue'
 import globals from 'globals'
 import neostandard from 'neostandard'
 
-const eslintAll = [
+const eslintBase = [
     { languageOptions: { globals: globals.browser } },
     eslintJs.configs.recommended,
     ...neostandard({ noStyle: true }),
     {
-        rules: {
-            'no-console': 'warn',
-        },
+        rules: { 'no-console': 'warn' },
     },
 ]
 
 export const eslint = {
-    standard: [...eslintAll, eslintConfigPrettier],
+    base: eslintBase,
+    standard: [...eslintBase, eslintConfigPrettier],
     vue3: [
-        ...eslintAll,
+        ...eslintBase,
         ...eslintPluginVue.configs['flat/recommended'],
         eslintConfigPrettier, // Remove stylistic eslint rules
         {
@@ -29,7 +28,7 @@ export const eslint = {
         },
     ],
     vue2: [
-        ...eslintAll,
+        ...eslintBase,
         ...eslintPluginVue.configs['flat/vue2-recommended'],
         eslintConfigPrettier, // Remove stylistic eslint rules
         {
