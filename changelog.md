@@ -2,6 +2,9 @@
 
 ## UNRELEASED
 
+## v3.1.1 - 2024-09-30
+- ✨ Updated prettier `arrowParens` configuration.
+
 ## v3.1.0 - 2024-09-29
 - ✨ Added base config without prettier.
 - ✨ Added typescript support.
