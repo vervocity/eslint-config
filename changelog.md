@@ -1,6 +1,7 @@
 # Change Log
 
 ## UNRELEASED
+- ✨ Updated prettier `arrowParens` configuration.
 
 ## v3.1.0 - 2024-09-29
 - ✨ Added base config without prettier.

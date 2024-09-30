@@ -72,6 +72,7 @@ export const prettier = {
         semi: false,
         singleQuote: true,
         quoteProps: 'consistent',
+        arrowParens: 'avoid',
         plugins: [
             'prettier-plugin-organize-imports',
             'prettier-plugin-tailwindcss',
