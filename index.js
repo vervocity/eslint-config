@@ -3,11 +3,12 @@ import eslintConfigPrettier from 'eslint-config-prettier'
 import eslintPluginVue from 'eslint-plugin-vue'
 import globals from 'globals'
 import neostandard from 'neostandard'
+import eslintTs from 'typescript-eslint'
 
 const eslintBase = [
     { languageOptions: { globals: globals.browser } },
     eslintJs.configs.recommended,
-    ...neostandard({ noStyle: true }),
+    ...neostandard({ noStyle: true, ts: true }),
     {
         rules: { 'no-console': 'warn' },
     },
@@ -20,18 +21,44 @@ const vuePostPrettier = {
     },
 }
 
+const vueTs = {
+    files: ['**/*.vue'],
+    languageOptions: { parserOptions: { parser: eslintTs.parser } },
+}
+
 export const eslint = {
-    base: eslintBase,
-    standard: [...eslintBase, eslintConfigPrettier],
-    vue3: [
+    'base': eslintBase,
+    'standard': [...eslintBase, eslintConfigPrettier],
+    'standard-ts': [
+        ...eslintBase,
+        ...eslintTs.configs.recommended,
+        eslintConfigPrettier,
+    ],
+    'vue3': [
         ...eslintBase,
         ...eslintPluginVue.configs['flat/recommended'],
         eslintConfigPrettier, // Remove stylistic eslint rules
         vuePostPrettier,
     ],
-    vue2: [
+    'vue3-ts': [
+        ...eslintBase,
+        ...eslintTs.configs.recommended,
+        ...eslintPluginVue.configs['flat/recommended'],
+        vueTs,
+        eslintConfigPrettier, // Remove stylistic eslint rules
+        vuePostPrettier,
+    ],
+    'vue2': [
         ...eslintBase,
         ...eslintPluginVue.configs['flat/vue2-recommended'],
+        eslintConfigPrettier, // Remove stylistic eslint rules
+        vuePostPrettier,
+    ],
+    'vue2-ts': [
+        ...eslintBase,
+        ...eslintTs.configs.recommended,
+        ...eslintPluginVue.configs['flat/vue2-recommended'],
+        vueTs,
         eslintConfigPrettier, // Remove stylistic eslint rules
         vuePostPrettier,
     ],

@@ -2,6 +2,7 @@
 
 ## UNRELEASED
 - ✨ Added base config without prettier.
+- ✨ Added typescript support.
 
 ## v3.0.1 - 2024-09-29
 - 🐛 Added missing `eslint-formatter-checkstyle` package.
