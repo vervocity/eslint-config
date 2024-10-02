@@ -47,7 +47,7 @@ If desired, add the following to your `package.json`. Make sure to update the `r
 "scripts" {
     "lint": "npx eslint resources",
     "lint:fix": "npm run lint -- --fix",
-    "prettier": "npx prettier resources --check",
+    "prettier": "npx prettier resources",
     "prettier:fix": "npm run prettier -- --write",
     "format": "npm run prettier:fix && npm run lint:fix",
 }

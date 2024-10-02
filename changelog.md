@@ -2,6 +2,10 @@
 
 ## UNRELEASED
 
+## v3.2.0 - 2024-10-02
+- ✨ Added configuration for import order plugin.
+- 🐛 Fixed error in readme documentation.
+
 ## v3.1.1 - 2024-09-30
 - ✨ Updated prettier `arrowParens` configuration.
 

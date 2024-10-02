@@ -73,6 +73,7 @@ export const prettier = {
         singleQuote: true,
         quoteProps: 'consistent',
         arrowParens: 'avoid',
+        organizeImportsSkipDestructiveCodeActions: true,
         plugins: [
             'prettier-plugin-organize-imports',
             'prettier-plugin-tailwindcss',
