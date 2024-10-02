@@ -1,6 +1,8 @@
 # Change Log
 
 ## UNRELEASED
+
+## v3.2.0 - 2024-10-02
 - ✨ Added configuration for import order plugin.
 - 🐛 Fixed error in readme documentation.
 
