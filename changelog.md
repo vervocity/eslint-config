@@ -1,6 +1,7 @@
 # Change Log
 
 ## UNRELEASED
+- ✨ Added configuration for import order plugin.
 
 ## v3.1.1 - 2024-09-30
 - ✨ Updated prettier `arrowParens` configuration.
