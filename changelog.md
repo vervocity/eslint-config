@@ -1,6 +1,7 @@
 # Change Log
 
 ## UNRELEASED
+- 🐛 Added missing vue-tsc package.
 
 ## v3.2.0 - 2024-10-02
 - ✨ Added configuration for import order plugin.
