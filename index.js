@@ -1,5 +1,6 @@
 import eslintJs from '@eslint/js'
 import eslintConfigPrettier from 'eslint-config-prettier'
+import eslintReactPlugin from 'eslint-plugin-react'
 import eslintPluginVue from 'eslint-plugin-vue'
 import globals from 'globals'
 import neostandard from 'neostandard'
@@ -32,6 +33,17 @@ export const eslint = {
     'standard-ts': [
         ...eslintBase,
         ...eslintTs.configs.recommended,
+        eslintConfigPrettier,
+    ],
+    'react': [
+        ...eslintBase,
+        eslintReactPlugin.configs.flat.recommended,
+        {
+            rules: {
+                'react/prop-types': ['warn', { skipUndeclared: true }],
+                'no-console': 'off',
+            },
+        },
         eslintConfigPrettier,
     ],
     'vue3': [
