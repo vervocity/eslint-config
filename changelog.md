@@ -2,6 +2,9 @@
 
 ## UNRELEASED
 
+## v3.3.0 - 2024-10-04
+- ✨ Added `react` eslint config.
+
 ## v3.2.1 - 2024-10-04
 - 🐛 Added missing vue-tsc package.
 

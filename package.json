@@ -1,6 +1,6 @@
 {
     "name": "@vervocity/eslint-config",
-    "version": "3.2.1",
+    "version": "3.3.0",
     "description": "Vervocity ESLint & Prettier config",
     "type": "module",
     "main": "index.js",
@@ -26,6 +26,7 @@
         "eslint": "^9.11.1",
         "eslint-config-prettier": "^9.1.0",
         "eslint-formatter-checkstyle": "^8.40.0",
+        "eslint-plugin-react": "^7.37.1",
         "eslint-plugin-vue": "^9.28.0",
         "globals": "^15.9.0",
         "neostandard": "^0.11.6",
