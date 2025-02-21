@@ -1,6 +1,8 @@
 # Change Log
 
 ## UNRELEASED
+
+## v3.4.0 - 2025-02-21
 - ✨ Added `vue/block-order` rule.
 
 ## v3.3.0 - 2024-10-04
