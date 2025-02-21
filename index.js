@@ -19,6 +19,12 @@ const vuePostPrettier = {
     rules: {
         'vue/multi-word-component-names': 'off',
         'vue/html-self-closing': ['error', { html: { void: 'any' } }],
+        'vue/block-order': [
+            'error',
+            {
+                order: ['template', 'script', 'style'],
+            },
+        ],
     },
 }
 
