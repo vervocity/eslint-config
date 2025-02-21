@@ -2,6 +2,9 @@
 
 ## UNRELEASED
 
+## v3.4.1 - 2025-02-21
+- ⬆️ Bumped package version number.
+
 ## v3.4.0 - 2025-02-21
 - ✨ Added `vue/block-order` rule.
 
