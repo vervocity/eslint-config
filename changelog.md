@@ -2,6 +2,9 @@
 
 ## UNRELEASED
 
+## v3.5.0 - 2025-06-30
+- ✨ Updated react to use jsx-runtime config.
+
 ## v3.4.1 - 2025-02-21
 - ⬆️ Bumped package version number.
 
