@@ -43,7 +43,7 @@ export const eslint = {
     ],
     'react': [
         ...eslintBase,
-        eslintReactPlugin.configs.flat.recommended,
+        eslintReactPlugin.configs.flat['jsx-runtime'],
         {
             rules: {
                 'react/prop-types': ['warn', { skipUndeclared: true }],
