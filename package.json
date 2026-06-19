@@ -13,7 +13,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/vervocity/eslint-config.git"
+        "url": "git+https://github.com/vervocity/eslint-config.git"
     },
     "author": "Brandon Bloodgood",
     "license": "ISC",
