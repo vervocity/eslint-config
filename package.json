@@ -1,6 +1,6 @@
 {
     "name": "@vervocity/eslint-config",
-    "version": "3.5.0",
+    "version": "4.0.0",
     "description": "Vervocity ESLint & Prettier config",
     "type": "module",
     "main": "index.js",
@@ -17,23 +17,28 @@
     },
     "author": "Brandon Bloodgood",
     "license": "ISC",
+    "engines": {
+        "node": "^20.19.0 || ^22.13.0 || >=24.0.0"
+    },
     "bugs": {
         "url": "https://github.com/vervocity/eslint-config/issues"
     },
     "homepage": "https://github.com/vervocity/eslint-config#readme",
     "dependencies": {
-        "@eslint/js": "^9.11.1",
-        "eslint": "^9.11.1",
-        "eslint-config-prettier": "^9.1.0",
-        "eslint-formatter-checkstyle": "^8.40.0",
-        "eslint-plugin-react": "^7.37.1",
-        "eslint-plugin-vue": "^9.28.0",
-        "globals": "^15.9.0",
-        "neostandard": "^0.11.6",
+        "@eslint/js": "^10.0.1",
+        "eslint": "^10.11.0",
+        "eslint-config-prettier": "^10.1.8",
+        "eslint-formatter-checkstyle": "^9.0.1",
+        "eslint-plugin-react": "^7.37.5",
+        "eslint-plugin-vue": "^10.11.0",
+        "globals": "^17.12.0",
+        "neostandard": "^0.14.0-next.1",
         "prettier": "3.3.3",
         "prettier-plugin-organize-imports": "^4.1.0",
         "prettier-plugin-tailwindcss": "^0.6.8",
-        "typescript-eslint": "^8.7.0",
+        "typescript": "^5.9.3",
+        "typescript-eslint": "^8.70.0",
+        "vue-eslint-parser": "^10.3.0",
         "vue-tsc": "^2.1.6"
     }
 }

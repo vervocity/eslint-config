@@ -2,6 +2,11 @@
 
 ## UNRELEASED
 
+## v4.0.0 - 2026-09-21
+- ⬆️ Updated to use eslint v10.
+- ⚠️ Requires Node.js 20.19.0, 22.13.0, or later.
+- ⚠️ The `react` preset retains `eslint-plugin-react`, which does not yet declare eslint v10 support.
+
 ## v3.5.0 - 2025-06-30
 - ✨ Updated react to use jsx-runtime config.
 

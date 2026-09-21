@@ -5,6 +5,12 @@
 > [!NOTE]  
 > All eslint configurations are setup to be used with [prettier](https://prettier.io).
 
+> [!IMPORTANT]
+> ESLint v10 requires Node.js 20.19.0, 22.13.0, or later.
+
+> [!WARNING]
+> The `react` preset retains `eslint-plugin-react`, which does not yet declare ESLint v10 support. Install with `--legacy-peer-deps` until the plugin publishes compatible peer dependencies.
+
 ```sh
 npm install --save-dev @vervocity/eslint-config
 ```
